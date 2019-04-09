@@ -8,6 +8,7 @@ proc isBeautiful(str: var string) : bool =
         if count mod 2 == 1:
             isBeautiful = false
             return isBeautiful
+        # かぶり文字を見つけて削除
         str = str.replace($str[0],"")
     return isBeautiful
 
