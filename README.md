@@ -34,4 +34,10 @@ echo "ABC", "DEF" # ,で繋げられる
 
 ### 配列の重複削除
 - deduplicate()
+
+```
+var array = @[2,3,4,5,2,3,3,2,5]
+var arranged_array = deduplicate(array) # [2,3,4,5]
+```
+
 めっちゃ便利
