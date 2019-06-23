@@ -41,3 +41,11 @@ var arranged_array = deduplicate(array) # [2,3,4,5]
 ```
 
 めっちゃ便利
+
+### 複数宣言
+- 一度に複数の変数を宣言代入
+
+```
+let (x1,y1,x2,y2,x3,y3) = (let t = stdin.readline().split().map(parseInt);(t[0],t[1],t[2],t[3],t[4],t[5]))
+let (value,node) = (let t = stdin.readline().split().map(parseInt);(t[0],t[1..t.len-1]))
+```
