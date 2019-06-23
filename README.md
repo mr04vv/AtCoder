@@ -48,4 +48,21 @@ var arranged_array = deduplicate(array) # [2,3,4,5]
 ```
 let (x1,y1,x2,y2,x3,y3) = (let t = stdin.readline().split().map(parseInt);(t[0],t[1],t[2],t[3],t[4],t[5]))
 let (value,node) = (let t = stdin.readline().split().map(parseInt);(t[0],t[1..t.len-1]))
+var
+  n, m: int
+(n,m) = stdin.readLine.split.map(parseInt)
+```
+
+### 内容表記
+
+```
+let b = lc[newSeq[int](m) | (x <- 0..<m), seq[int]]
+let b = lc[0 | (x <- 0..<m), int]
+```
+
+### リスト連結
+
+```
+var a = @[1,2,3]
+echo a & 1
 ```

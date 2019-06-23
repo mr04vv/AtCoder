@@ -2,7 +2,7 @@ import strutils
 import sequtils
 
 let
-  (n,m) = (let i = stdin.readline().split().map(parseInt);(i[0],i[1])) 
+  (n,m) = stdin.readline().split().map(parseInt)
 
 var arr = newSeq[seq[int]]()
 
